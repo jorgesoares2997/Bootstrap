@@ -497,7 +497,7 @@ header,
         margin-bottom: 40px;
     }
 
-    #marginSlider .carousel-caption p{
+    #mainSlider .carousel-caption p{
         display: none;
     }
     .carousel-caption .main-btn{
