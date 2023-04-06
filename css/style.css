@@ -52,30 +52,33 @@ header,
 
 .container-fluid {
     padding: 0;
-
-}
-#mainSlider .carousel-inner,
-#mainSlider .carousel-item{
+  }
+  
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
     height: 90vh;
+   
+  }
 
-}
-#mainSlider .carousel-caption{
+  #mainSlider .carousel-caption {
     top: 30%;
-}
-#mainSlider .carousel-caption h2{
+  }
+  
+  #mainSlider .carousel-caption h2 {
     font-size: 50px;
     margin-bottom: 30px;
-   
-}
-#mainSlider .carousel-caption p{
+  }
+
+  
+  #mainSlider .carousel-caption p {
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
-    color: #fff;
-}
-.main-btn{
-    background-color: #65daf9;
-    color: #fff;
+    color: #FFF;
+  }
+  
+  .main-btn {
+    background-color: #65DAF9;
+    color: #FFF;
     text-transform: uppercase;
     width: 200px;
     height: 60px;
@@ -83,18 +86,18 @@ header,
     border-radius: 30px;
     border: 3px solid transparent;
     transition: .5s;
-}
-.main-btn:hover{
+  }
+  
+  .main-btn:hover {
     text-decoration: none;
-    color: #fff;
+    color: #FFF;
     background-color: transparent;
-    border-color: #65daf9;
-}
-.carousel-indicators .active{
-    background-color: #65daf9;
-    
-}
-
+    border-color: #3EC1D5;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #65DAF9;
+  }
 /* Sobre a Empresa */
 
 #about-area{
@@ -425,6 +428,7 @@ header,
         font-size: 18px;
         margin-bottom: 40px;
     }
+  
 
     .carousel-caption{
         left: 10%;
@@ -476,5 +480,82 @@ header,
         font-size: 16px;
     }
 
+
+}
+/* Celular */
+@media (max-width:425px) {
+    /* Slider */
+    #mainSlider{
+        margin-top: 90px;
+    }
+    #mainSlider .carousel-caption{
+        top: 5%;
+        
+    }
+    #mainSlider .carousel-caption h2{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #marginSlider .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption .main-btn{
+        font-size: 14px;
+    }
+    /* about  */
+
+    .main-title{
+        font-size: 30px;
+    }
+    
+    #about-area img{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    /* data  */
+    .circle-box{
+        width: 50%;
+    }
+    /* team  */
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    /* apply  */
+    #apply-area{
+        height: auto;
+    }
+    #company-img{
+        display: none;
+    }
+    /* filter  */
+    #portfolio-area .filter-btn{
+        margin-bottom: 20px;
+    }
+    .project-box{
+        width: 50%;
+    }
+    #news-area .main-title{
+        font-size: 24px;
+    }
+    #news-area p{
+        font-size: 16px;
+    }
+    #email-input{
+        width: 80%;
+    }
+    /* Cta  */
+    #call-area p, #call-area #call-btn{
+        font-size: 12px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+    /* contact  */
+    .contact-box{
+        border: none;
+        margin-bottom: 0;
+    }
 
 }
